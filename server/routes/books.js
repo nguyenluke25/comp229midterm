@@ -73,10 +73,11 @@ router.get('/edit/:id', (req, res, next) => {
 
 // POST - process the information passed from the details form and update the document
 router.post('/edit/:id', (req, res, next) => {
+  let id = req.params.id
 
   let updatedBook = {
-    "_id": id,
-    "Title": Title,
+    
+    "Title": req.body.Title,
     "Description": req.body.Description,
     "Price": req.body.Price,
     "Author": req.body.Author,
