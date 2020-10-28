@@ -1,0 +1,11 @@
+houtube link:
+
+https://youtu.be/oXRwB-JbdQ0
+
+github repo link:
+
+https://github.com/nguyenluke25/comp229midterm
+
+heroku link:
+
+https://comp229midtermln.herokuapp.com/
