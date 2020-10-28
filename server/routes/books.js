@@ -39,7 +39,7 @@ router.post('/add', (req, res, next) => {
     "Author": req.body.Author,
     "Genre": req.body.Genre
   })
-  book.create(newContact, (err, Book) =>{
+  book.create(newBook, (err, Book) =>{
     if(err)
     {
         console.log(err);
